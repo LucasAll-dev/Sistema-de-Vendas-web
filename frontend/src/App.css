@@ -18,18 +18,63 @@ body {
     width: 1200px;
     height: 6%;
     background-color: black;
+    display: flex;
+    align-items: center;
 }
+
+#link-head {
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+#title-head {
+    color: white;
+    font-size: 16px;
+}
+
+/* Main */
 
 .container-main {
     width: 1200px;
-    height: 1000px;
-    background-color: blue;
-    justify-content: space-around;
+    height: 1000px;display: flex;
+    /*justify-content: space-around;*/
 }
 
-#container-menu {
-    width: 180px;
-    height: 100%;
-    background-color: blueviolet;
+#container-dinamico {
+    width: 1000px;
+    background-color: red;
+    height: 700px;
+}
 
+/* Menu */
+
+#container-menu {
+    width: 200px;
+    height: 100%;
+    background-color: rgb(58, 56, 59);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-menu:hover {
+    background-color: rgb(36, 35, 37);
+    transition-duration: 0.8s;
+}
+
+.menu-options {
+    text-decoration: none;
+}
+
+.link-menu {
+    color: white;
+    font-size: 16px;
 }
