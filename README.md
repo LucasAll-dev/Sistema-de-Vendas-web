@@ -6,8 +6,10 @@ Sistema de vendas e controle de estoques web, desenvolvido em Node.Js e react, v
 
 ##API
 - npm init -y
+- yarn add express nodemon mysql cors dotenv
 
 ##FRONTEND
 - npm create vite@latest .
 - npm install
 - npm run dev
+
